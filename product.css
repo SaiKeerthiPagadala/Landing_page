@@ -1,0 +1,214 @@
+li{
+    display: inline;
+}
+li a{
+    color: black;
+    text-decoration: none;
+}
+li a:hover{
+    text-shadow: 1px 1px rgb(251, 138, 96);
+}
+.main h2{
+    text-transform: capitalize; 
+    color: white; 
+    font-size: 40px;
+    padding-left: 60px;
+    padding-top: 70px;
+}
+.main{
+    background-color:rgb(210, 200, 187) ;
+    height: 369px;
+}
+.main p{
+    color: white;
+    padding-left: 60px;
+}
+.main input{
+    background-color: white;
+    border: 1px solid white;
+    padding: 13px 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.main img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 140px;
+    display: inline;
+}
+.top img{
+    float: left;
+    margin-left: 15px;
+}
+.images img:hover{
+    opacity: 0.5;
+}
+.images img{
+    width: 220px;
+    height: 200px;
+}
+.center{
+    position: absolute;
+    top: 85px;
+    text-align: center;
+    left: 80px;
+}
+.center input{
+    background-color: white;
+    border: 1px solid white;
+    padding: 13px;
+}
+.images input{
+    cursor: pointer;
+}
+.images input:hover{
+    background-color: rgb(247, 204, 247);
+    color: rgb(237, 107, 237);
+    border: 2px solid rgb(197, 102, 197);
+}
+.products{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(244, 196, 244);
+}
+.products img{
+    border-radius: 20px;
+}
+.products img:hover{
+    animation-name: productsanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+.products:hover{
+    border: 1px solid rgb(255, 43, 78);
+    opacity: 0.5;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+}
+.desc{
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+footer i{
+    padding-left: 5px;
+    padding-top: 4px;
+    letter-spacing: 20px;
+    margin-left: 170px;
+}
+footer i:hover{
+    text-shadow: 1px 1px black;
+}
+.desc1{
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+body{
+    background-color: rgb(244, 216, 221);
+}
+.shopping input:hover{
+    cursor: pointer;
+    background-color: rgb(248, 194, 248);
+    color: rgb(237, 107, 237);
+    border: 2px solid rgb(229, 17, 229);
+}
+.contact{
+    color: rgb(224, 23, 90);
+    padding-left: 300px;
+}
+.contact input{
+    width: 70%;
+    border: 1px solid red;
+    border-radius: 7px;
+    height: 20px;
+}
+footer{
+    margin-top: 590px; 
+    border-top:2px dashed rgb(245, 128, 128);
+    border-bottom: 2px dashed rgb(245, 128, 128);
+    border-left: 2px double rgb(245, 128, 128);
+    border-right: 2px double rgb(245, 128, 128); 
+    background-color: rgb(252, 226, 230);
+}
+footer h1{
+    text-transform: capitalize; 
+    font-size: 30px; 
+    color: #d22626; 
+    text-align: center; 
+    text-decoration: 1px underline;
+}
+.contact button{
+    background-color: rgb(249, 196, 205);
+    padding: 5px;
+    text-align: center;
+    margin-left: 300px;
+    border: 1px solid red;
+    color: red;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+.contact button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: lavender;
+    }
+    footer{
+        width: 570px;
+        margin-top: 2300px;
+        margin-right: 7px;
+        background-color: rgb(221, 221, 250);
+        border-top:2px dashed rgb(180, 180, 206);
+        border-bottom: 2px dashed rgb(180, 180, 206);
+        border-left: 2px double rgb(180, 180, 206);
+        border-right: 2px double rgb(180, 180, 206); 
+    }
+    .contact{
+        color: rgb(175, 175, 247);
+        padding-left: 150px;
+    }
+    .contact input{
+        width: 70%;
+        border: 1px solid rgb(175, 175, 247);
+        border-radius: 7px;
+        height: 20px;
+    }
+    footer h1{
+        color: purple;
+    }
+    .contact button{
+        background-color: white;
+        padding: 5px;
+        text-align: center;
+        margin-left: 110px;
+        border: 1px solid lavender;
+        color: rgb(188, 188, 245);
+        font-weight: bolder;
+        border-radius: 7px;
+    }
+    .contact button:hover{
+        cursor: pointer;
+    }
+    footer i{
+        padding-left: 5px;
+        padding-top: 4px;
+        letter-spacing: 10px;
+        margin-left: 70px;
+    }
+    footer i:hover{
+        text-shadow: 1px 1px 9px black;
+    }
+}
+
+mark{
+    background-color: rgb(242, 130, 149);
+}
